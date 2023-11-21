@@ -1,0 +1,25 @@
+{
+  "name": "famous-bot",
+  "version": "1.0.0",
+  "description": "Discord bot of Famous Roleplay",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lukman350/RRP/tree/master/bot"
+  },
+  "author": "Lukman350",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^16.0.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.2",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "samp-query": "^0.1.5"
+  }
+}
